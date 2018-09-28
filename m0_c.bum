@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
 <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
-<org.eventb.core.action name="'" org.eventb.core.assignment="PROJET = ∅" org.eventb.core.label="act1"/>
-<org.eventb.core.action name="(" org.eventb.core.assignment="MODULE = ∅" org.eventb.core.label="act2"/>
-<org.eventb.core.action name=")" org.eventb.core.assignment="GROUPE = ∅" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="Projet = ∅" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="Module = ∅" org.eventb.core.label="act2"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="Groupe = ∅" org.eventb.core.label="act3"/>
 </org.eventb.core.event>
 <org.eventb.core.seesContext name="(" org.eventb.core.target="ctx_v0"/>
 <org.eventb.core.event name=")" org.eventb.core.comment="ajouter_projet" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="evt1">
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="projet"/>
-<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="projet ∈ Projet"/>
-<org.eventb.core.action name=")" org.eventb.core.assignment="projet ∈ PROJET" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="projet ∈ PROJET"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="projet ∈ Projet" org.eventb.core.label="act1"/>
 <org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="projet ∉ PROJET"/>
 </org.eventb.core.event>
-<org.eventb.core.variable name="*" org.eventb.core.identifier="PROJET"/>
-<org.eventb.core.variable name="+" org.eventb.core.identifier="MODULE"/>
-<org.eventb.core.variable name="," org.eventb.core.identifier="GROUPE"/>
-<org.eventb.core.invariant name="-" org.eventb.core.label="inv1" org.eventb.core.predicate="p ∈ PROJET ⇒ p ∈ Projet" org.eventb.core.theorem="true"/>
-<org.eventb.core.invariant name="." org.eventb.core.label="inv2" org.eventb.core.predicate="m ∈ MODULE ⇒ m ∈ Module" org.eventb.core.theorem="true"/>
-<org.eventb.core.invariant name="/" org.eventb.core.label="inv3" org.eventb.core.predicate="g ∈ GROUPE ⇒ g ∈ Groupe" org.eventb.core.theorem="true"/>
+<org.eventb.core.variable name="*" org.eventb.core.identifier="Projet"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="Module"/>
+<org.eventb.core.variable name="," org.eventb.core.identifier="Groupe"/>
+<org.eventb.core.invariant name="-" org.eventb.core.label="inv1" org.eventb.core.predicate="p ∈ Projet ⇒ p ∈ PROJET" org.eventb.core.theorem="true"/>
+<org.eventb.core.invariant name="." org.eventb.core.label="inv2" org.eventb.core.predicate="m ∈ Module ⇒ m ∈ MODULE" org.eventb.core.theorem="true"/>
+<org.eventb.core.invariant name="/" org.eventb.core.label="inv3" org.eventb.core.predicate="g ∈ Groupe ⇒ g ∈ GROUPE" org.eventb.core.theorem="true"/>
 <org.eventb.core.event name="0" org.eventb.core.comment="ajouter_module" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="evt2">
-<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="module ∈ Module"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="module ∈ MODULE"/>
 <org.eventb.core.parameter name="(" org.eventb.core.identifier="module"/>
-<org.eventb.core.action name=")" org.eventb.core.assignment="module ∈ MODULE" org.eventb.core.label="act1"/>
-<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="module ∉ MODULE"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="module ∈ Module" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="module ∉ Module"/>
 </org.eventb.core.event>
 <org.eventb.core.event name="1" org.eventb.core.comment="ajouter_groupe" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="evt3">
-<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="groupe ∈ Groupe"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="groupe ∈ GROUPE"/>
 <org.eventb.core.parameter name="(" org.eventb.core.identifier="groupe"/>
-<org.eventb.core.action name=")" org.eventb.core.assignment="groupe ∈ GROUPE" org.eventb.core.label="act1"/>
-<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="groupe ∉ GROUPE"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="groupe ∈ Groupe" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="groupe ∉ Groupe"/>
 </org.eventb.core.event>
 </org.eventb.core.machineFile>
