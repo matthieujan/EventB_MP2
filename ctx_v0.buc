@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" version="3">
 <org.eventb.core.carrierSet name="'" org.eventb.core.identifier="FORMATION"/>
 <org.eventb.core.carrierSet name="(" org.eventb.core.identifier="MODULE"/>
 <org.eventb.core.carrierSet name=")" org.eventb.core.identifier="PROJET"/>
@@ -11,10 +11,10 @@
 <org.eventb.core.constant name="/" org.eventb.core.identifier="PROPOSE"/>
 <org.eventb.core.constant name="0" org.eventb.core.identifier="PARTICIPE"/>
 <org.eventb.core.constant name="1" org.eventb.core.identifier="REALISE"/>
-<org.eventb.core.axiom name="2" org.eventb.core.label="EST_FORME" org.eventb.core.predicate="Formation ↔ Etudiant" org.eventb.core.theorem="true"/>
-<org.eventb.core.axiom name="3" org.eventb.core.label="EST_INSCRIT" org.eventb.core.predicate="Module ↔ Etudiant" org.eventb.core.theorem="true"/>
-<org.eventb.core.axiom name="4" org.eventb.core.label="COMPOSE" org.eventb.core.predicate="Formation ↔ Module" org.eventb.core.theorem="true"/>
-<org.eventb.core.axiom name="5" org.eventb.core.label="PROPOSE" org.eventb.core.predicate="Module ↔ Projet" org.eventb.core.theorem="true"/>
-<org.eventb.core.axiom name="6" org.eventb.core.label="PARTICIPE" org.eventb.core.predicate="Etudiant ↔ Groupe" org.eventb.core.theorem="true"/>
-<org.eventb.core.axiom name="7" org.eventb.core.label="REALISE" org.eventb.core.predicate="Groupe ↔ Projet" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="2" org.eventb.core.label="EST_FORME1" org.eventb.core.predicate="EST_FORME ∈ FORMATION ↔ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="3" org.eventb.core.label="EST_INSCRIT1" org.eventb.core.predicate="EST_INSCRIT ∈ MODULE ↔ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="4" org.eventb.core.label="COMPOSE1" org.eventb.core.predicate="COMPOSE ∈ FORMATION ↔ MODULE" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="5" org.eventb.core.label="PROPOSE1" org.eventb.core.predicate="PROPOSE ∈ MODULE ↔ PROJET" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="6" org.eventb.core.label="PARTICIPE1" org.eventb.core.predicate="PARTICIPE ∈ ETUDIANT ↔ GROUPE" org.eventb.core.theorem="true"/>
+<org.eventb.core.axiom name="7" org.eventb.core.label="REALISE1" org.eventb.core.predicate="REALISE ∈ GROUPE ↔ PROJET"/>
 </org.eventb.core.contextFile>
