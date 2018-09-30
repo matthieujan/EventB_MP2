@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
-<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION"/>
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="Inscrit ≔ 0" org.eventb.core.label="init1"/>
+</org.eventb.core.event>
 <org.eventb.core.seesContext name="(" org.eventb.core.target="ctx_v0"/>
-<org.eventb.core.variable name=")" org.eventb.core.identifier="MyForm"/>
-<org.eventb.core.invariant name="*" org.eventb.core.label="inv1" org.eventb.core.predicate="MyForm ⊆ FORMATION"/>
-<org.eventb.core.variable name="+" org.eventb.core.identifier="MyEtud"/>
-<org.eventb.core.invariant name="," org.eventb.core.label="inv2" org.eventb.core.predicate="MyEtud ∈ ETUDIANT"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="Inscrit"/>
+<org.eventb.core.invariant name="*" org.eventb.core.label="inv1" org.eventb.core.predicate="Inscrit ∈ ℕ1 "/>
+<org.eventb.core.event name="+" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Inscription">
+<org.eventb.core.action name="'" org.eventb.core.assignment="Inscrit ≔ Inscrit + 1" org.eventb.core.label="add"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="," org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Desinscription">
+<org.eventb.core.action name="'" org.eventb.core.assignment="Inscrit ≔ Inscrit − 1" org.eventb.core.label="minus"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="Inscrit ≥ 1"/>
+</org.eventb.core.event>
 </org.eventb.core.machineFile>
