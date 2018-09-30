@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="2">
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poFile org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="6">
 <org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ETUDIANT)"/>
 <org.eventb.core.poIdentifier name="FORMATION" org.eventb.core.type="ℙ(FORMATION)"/>
 <org.eventb.core.poIdentifier name="GROUPE" org.eventb.core.type="ℙ(GROUPE)"/>
@@ -10,15 +10,45 @@
 <org.eventb.core.poIdentifier name="EST_FORME" org.eventb.core.type="ℙ(FORMATION×ETUDIANT)"/>
 <org.eventb.core.poIdentifier name="EST_INSCRIT" org.eventb.core.type="ℙ(MODULE×ETUDIANT)"/>
 <org.eventb.core.poIdentifier name="PARTICIPE" org.eventb.core.type="ℙ(ETUDIANT×GROUPE)"/>
-<org.eventb.core.poIdentifier name="PROPOSE" org.eventb.core.type="ℙ(MODULE×PROJET)"/>
-<org.eventb.core.poIdentifier name="REALISE" org.eventb.core.type="ℙ(GROUPE×PROJET)"/>
+<org.eventb.core.poIdentifier name="PROPOSE" org.eventb.core.type="ℙ(PROJET×MODULE)"/>
+<org.eventb.core.poIdentifier name="REALISE" org.eventb.core.type="ℙ(PROJET×GROUPE)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poSequent name="axm1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Theorem" org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP,"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒finite(PROPOSE[{p}])" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP,"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="axm1/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP,"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(PROPOSE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP,"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="axm2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Theorem" org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP-"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒finite(REALISE[{p}])" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP-"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="axm2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP-"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(REALISE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP-"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYP," org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="6">
 <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="EST_FORME∈FORMATION ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#2"/>
 <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="EST_INSCRIT∈MODULE ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#3"/>
 <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="COMPOSE∈FORMATION ↔ MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#4"/>
-<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="PROPOSE∈MODULE ↔ PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#5"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="PROPOSE∈PROJET ↔ MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#5"/>
 <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="PARTICIPE∈ETUDIANT ↔ GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#6"/>
-<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="REALISE∈GROUPE ↔ PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#7"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="REALISE∈PROJET ↔ GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#7"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYP-" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP," org.eventb.core.poStamp="6">
+<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(PROPOSE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#HYP-" org.eventb.core.poStamp="6">
+<org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(REALISE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
 </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>

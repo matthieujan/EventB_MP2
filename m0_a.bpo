@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="FORMATION" org.eventb.core.type="ℙ(FORMATION)"/>
+<org.eventb.core.poIdentifier name="GROUPE" org.eventb.core.type="ℙ(GROUPE)"/>
+<org.eventb.core.poIdentifier name="MODULE" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="PROJET" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.poIdentifier name="COMPOSE" org.eventb.core.type="ℙ(FORMATION×MODULE)"/>
+<org.eventb.core.poIdentifier name="EST_FORME" org.eventb.core.type="ℙ(FORMATION×ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="EST_INSCRIT" org.eventb.core.type="ℙ(MODULE×ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="PARTICIPE" org.eventb.core.type="ℙ(ETUDIANT×GROUPE)"/>
+<org.eventb.core.poIdentifier name="PROPOSE" org.eventb.core.type="ℙ(PROJET×MODULE)"/>
+<org.eventb.core.poIdentifier name="REALISE" org.eventb.core.type="ℙ(PROJET×GROUPE)"/>
+<org.eventb.core.poPredicate name="EST_INSCRIU" org.eventb.core.predicate="EST_FORME∈FORMATION ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#2"/>
+<org.eventb.core.poPredicate name="EST_INSCRIV" org.eventb.core.predicate="EST_INSCRIT∈MODULE ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#3"/>
+<org.eventb.core.poPredicate name="EST_INSCRIW" org.eventb.core.predicate="COMPOSE∈FORMATION ↔ MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#4"/>
+<org.eventb.core.poPredicate name="EST_INSCRIX" org.eventb.core.predicate="PROPOSE∈PROJET ↔ MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#5"/>
+<org.eventb.core.poPredicate name="EST_INSCRIY" org.eventb.core.predicate="PARTICIPE∈ETUDIANT ↔ GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#6"/>
+<org.eventb.core.poPredicate name="EST_INSCRIZ" org.eventb.core.predicate="REALISE∈PROJET ↔ GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#7"/>
+<org.eventb.core.poPredicate name="EST_INSCRI[" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(PROPOSE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
+<org.eventb.core.poPredicate name="EST_INSCRI\" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(REALISE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="12">
+<org.eventb.core.poIdentifier name="MyEtud" org.eventb.core.type="ETUDIANT"/>
+<org.eventb.core.poIdentifier name="MyForm" org.eventb.core.type="ℙ(FORMATION)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTctx_v3" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="MyEtud'" org.eventb.core.type="ETUDIANT"/>
+<org.eventb.core.poIdentifier name="MyForm'" org.eventb.core.type="ℙ(FORMATION)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPctx_v3" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTctx_v3" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="MyForm⊆FORMATION" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="MyEtud∈ETUDIANT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#,"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

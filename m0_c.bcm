@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase">
+<org.eventb.core.scMachineFile org.eventb.core.accurate="false" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/EventB_MP2/ctx_v0.bcc" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.seesContext#("/>
+<org.eventb.core.scInternalContext name="ctx_v0">
 <org.eventb.core.scAxiom name="'" org.eventb.core.label="EST_FORME1" org.eventb.core.predicate="EST_FORME∈FORMATION ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#2" org.eventb.core.theorem="false"/>
 <org.eventb.core.scAxiom name="(" org.eventb.core.label="EST_INSCRIT1" org.eventb.core.predicate="EST_INSCRIT∈MODULE ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#3" org.eventb.core.theorem="false"/>
 <org.eventb.core.scAxiom name=")" org.eventb.core.label="COMPOSE1" org.eventb.core.predicate="COMPOSE∈FORMATION ↔ MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#4" org.eventb.core.theorem="false"/>
@@ -19,4 +21,14 @@
 <org.eventb.core.scCarrierSet name="PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.carrierSet#)" org.eventb.core.type="ℙ(PROJET)"/>
 <org.eventb.core.scConstant name="PROPOSE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.constant#\/" org.eventb.core.type="ℙ(PROJET×MODULE)"/>
 <org.eventb.core.scConstant name="REALISE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.constant#1" org.eventb.core.type="ℙ(PROJET×GROUPE)"/>
-</org.eventb.core.scContextFile>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scEvent name="ctx_v1" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#'"/>
+<org.eventb.core.scEvent name="ctx_v2" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="evt2" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="module∈MODULE" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+<org.eventb.core.scParameter name="module" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0|org.eventb.core.parameter#(" org.eventb.core.type="MODULE"/>
+</org.eventb.core.scEvent>
+<org.eventb.core.scEvent name="ctx_v3" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="evt3" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1">
+<org.eventb.core.scGuard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="groupe∈GROUPE" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1|org.eventb.core.guard#'" org.eventb.core.theorem="false"/>
+<org.eventb.core.scParameter name="groupe" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1|org.eventb.core.parameter#(" org.eventb.core.type="GROUPE"/>
+</org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>
