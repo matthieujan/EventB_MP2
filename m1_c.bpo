@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="51">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="19">
+<org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="GROUPE" org.eventb.core.type="ℙ(GROUPE)"/>
+<org.eventb.core.poIdentifier name="MODULE" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="PROJET" org.eventb.core.type="ℙ(PROJET)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/EventB_MP2/m1_c.bpo|org.eventb.core.poFile#m1_c|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="51">
+<org.eventb.core.poIdentifier name="fEtudiantDansGroupe" org.eventb.core.type="ℙ(ETUDIANT×GROUPE)"/>
+<org.eventb.core.poIdentifier name="fInscritAuModule" org.eventb.core.type="ℙ(ETUDIANT×MODULE)"/>
+<org.eventb.core.poIdentifier name="fProjetDuModule" org.eventb.core.type="ℙ(PROJET×MODULE)"/>
+<org.eventb.core.poIdentifier name="fProjetParGroupe" org.eventb.core.type="ℙ(PROJET×GROUPE)"/>
+<org.eventb.core.poIdentifier name="vEtudiant" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="vGroupe" org.eventb.core.type="ℙ(GROUPE)"/>
+<org.eventb.core.poIdentifier name="vModule" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="vProjet" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupf" org.eventb.core.predicate="vProjet⊆PROJET" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#2"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupg" org.eventb.core.predicate="vModule⊆MODULE" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#3"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGrouph" org.eventb.core.predicate="vGroupe⊆GROUPE" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupi" org.eventb.core.predicate="vEtudiant⊆ETUDIANT" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#6"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupj" org.eventb.core.predicate="fInscritAuModule∈vEtudiant ↔ vModule" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#;"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupk" org.eventb.core.predicate="fProjetDuModule∈vProjet ⇸ vModule" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#="/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupl" org.eventb.core.predicate="fProjetParGroupe∈vProjet ⇸ vGroupe" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poPredicate name="fEtudiantDansGroupm" org.eventb.core.predicate="fEtudiantDansGroupe∈vEtudiant ⇸ vGroupe" org.eventb.core.source="/EventB_MP2/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#?"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/m1_c.bpo|org.eventb.core.poFile#m1_c|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="51">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="vProjet⊆PROJET" org.eventb.core.source="/EventB_MP2/m1_c.bum|org.eventb.core.machineFile#m1_c|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="vModule⊆MODULE" org.eventb.core.source="/EventB_MP2/m1_c.bum|org.eventb.core.machineFile#m1_c|org.eventb.core.invariant#+"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="vGroupe⊆GROUPE" org.eventb.core.source="/EventB_MP2/m1_c.bum|org.eventb.core.machineFile#m1_c|org.eventb.core.invariant#,"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

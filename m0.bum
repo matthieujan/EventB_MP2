@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="vProjet ≔ ∅" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="vModule ≔ ∅" org.eventb.core.label="act2"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="vGroupe ≔ ∅" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="vEtudiant ≔ ∅" org.eventb.core.label="act4"/>
+</org.eventb.core.event>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="ctx_v0"/>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ajouter_module">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="pModule ∈ MODULE" org.eventb.core.theorem="true"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="pModule"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="vModule ≔ vModule ∪ {pModule}" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="pModule ∉ vModule" org.eventb.core.theorem="true"/>
+</org.eventb.core.event>
+<org.eventb.core.event name=")" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ajouter_projet">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="pProjet"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="pProjet ∈ PROJET" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="vProjet ≔ vProjet ∪ {pProjet}" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="pProjet ∉ vProjet" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="fProjetDuModule(pProjet) ≔ pModule" org.eventb.core.label="act2"/>
+<org.eventb.core.parameter name="," org.eventb.core.identifier="pModule"/>
+<org.eventb.core.guard name="-" org.eventb.core.label="grd3" org.eventb.core.predicate="pModule ∈ MODULE" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="." org.eventb.core.label="grd4" org.eventb.core.predicate="pModule ∈ vModule" org.eventb.core.theorem="true"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="*" org.eventb.core.identifier="vProjet"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="vModule"/>
+<org.eventb.core.variable name="," org.eventb.core.identifier="vGroupe"/>
+<org.eventb.core.event name="1" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ajouter_groupe">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="groupe ∈ GROUPE" org.eventb.core.theorem="true"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="groupe"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="vGroupe ≔ vGroupe ∪ {groupe}" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="groupe ∉ vGroupe" org.eventb.core.theorem="true"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="2" org.eventb.core.label="inv1" org.eventb.core.predicate="vProjet ⊆ PROJET"/>
+<org.eventb.core.invariant name="3" org.eventb.core.label="inv2" org.eventb.core.predicate="vModule ⊆ MODULE"/>
+<org.eventb.core.invariant name="4" org.eventb.core.label="inv3" org.eventb.core.predicate="vGroupe ⊆ GROUPE"/>
+<org.eventb.core.variable name="5" org.eventb.core.identifier="vEtudiant"/>
+<org.eventb.core.invariant name="6" org.eventb.core.label="inv4" org.eventb.core.predicate="vEtudiant ⊆ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.variable name="7" org.eventb.core.identifier="fInscritAuModule"/>
+<org.eventb.core.variable name="8" org.eventb.core.identifier="fProjetDuModule"/>
+<org.eventb.core.variable name="9" org.eventb.core.identifier="fProjetParGroupe"/>
+<org.eventb.core.variable name=":" org.eventb.core.identifier="fEtudiantDansGroupe"/>
+<org.eventb.core.invariant name=";" org.eventb.core.label="inv5" org.eventb.core.predicate="fInscritAuModule ∈ vEtudiant ↔ vModule "/>
+<org.eventb.core.invariant name="=" org.eventb.core.label="inv6" org.eventb.core.predicate="fProjetDuModule ∈ vProjet ⇸ vModule"/>
+<org.eventb.core.invariant name="&gt;" org.eventb.core.label="inv7" org.eventb.core.predicate="fProjetParGroupe ∈ vProjet ⇸ vGroupe"/>
+<org.eventb.core.invariant name="?" org.eventb.core.label="inv8" org.eventb.core.predicate="fEtudiantDansGroupe ∈ vEtudiant ⇸ vGroupe"/>
+<org.eventb.core.event name="@" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="inscrire_etudiant_formation">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="pEtudiant"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="pEtudiant ∈ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="pEtudiant ∉ vEtudiant" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="vEtudiant ≔ vEtudiant ∪ {pEtudiant}" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="inscrire_etudiant_module">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="pEtudiant"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="pModule"/>
+<org.eventb.core.guard name="-" org.eventb.core.label="grd4" org.eventb.core.predicate="pEtudiant ∈ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="pEtudiant ∈ vEtudiant" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="." org.eventb.core.label="grd5" org.eventb.core.predicate="pModule ∈ MODULE" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="pModule ∈ vModule" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="fInscritAuModule :∣ pEtudiant ↦ pModule ∈ fInscritAuModule" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="/" org.eventb.core.label="grd6" org.eventb.core.predicate="pEtudiant ↦ pModule ∉ fInscritAuModule" org.eventb.core.theorem="true"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="B" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="inscrire_projet_groupe">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="pProjet"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="pGroupe"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="pProjet ∈ PROJET" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="pProjet ∈ vProjet" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd3" org.eventb.core.predicate="pGroupe ∈ GROUPE" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="," org.eventb.core.label="grd4" org.eventb.core.predicate="pGroupe ∈ vGroupe" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="-" org.eventb.core.label="grd5" org.eventb.core.predicate="∀ x · x∈ GROUPE ∧ pProjet ↦ x ∉ fProjetParGroupe" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name="." org.eventb.core.assignment="fProjetParGroupe(pProjet)≔pGroupe" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="C" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="inscrire_etudiant_groupe">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="pEtudiant"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="pGroupe"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="pEtudiant ∈ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="pEtudiant ∈ vEtudiant" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd3" org.eventb.core.predicate="pGroupe ∈ GROUPE" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="," org.eventb.core.label="grd4" org.eventb.core.predicate="pGroupe ∈ vGroupe" org.eventb.core.theorem="true"/>
+<org.eventb.core.guard name="-" org.eventb.core.label="grd5" org.eventb.core.predicate="pEtudiant ↦ pGroupe ∉ fEtudiantDansGroupe" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name="." org.eventb.core.assignment="fEtudiantDansGroupe :∣ pEtudiant ↦ pGroupe ∈ fEtudiantDansGroupe" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>
