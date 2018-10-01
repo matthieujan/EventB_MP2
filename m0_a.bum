@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.units.mchBase" version="5">
 <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
-<org.eventb.core.action name="'" org.eventb.core.assignment="Inscrit ≔ 0" org.eventb.core.label="init1"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="EtudiantsInscrits ≔ ∅" org.eventb.core.label="init1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="MyForm ≔ FORMATION" org.eventb.core.label="init2"/>
 </org.eventb.core.event>
 <org.eventb.core.seesContext name="(" org.eventb.core.target="ctx_v0"/>
-<org.eventb.core.variable name=")" org.eventb.core.identifier="Inscrit"/>
-<org.eventb.core.invariant name="*" org.eventb.core.label="inv1" org.eventb.core.predicate="Inscrit ∈ ℕ1 "/>
-<org.eventb.core.event name="+" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Inscription">
-<org.eventb.core.action name="'" org.eventb.core.assignment="Inscrit ≔ Inscrit + 1" org.eventb.core.label="add"/>
+<org.eventb.core.variable name=")" org.eventb.core.identifier="EtudiantsInscrits"/>
+<org.eventb.core.invariant name="*" org.eventb.core.label="inv1" org.eventb.core.predicate="EtudiantsInscrits ⊆ ETUDIANT  "/>
+<org.eventb.core.event name="+" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="InscriptionEtudiantFormation">
+<org.eventb.core.action name="'" org.eventb.core.assignment="EtudiantsInscrits ≔ EtudiantsInscrits ∪ {newEtudiant}" org.eventb.core.label="add"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="newEtudiant ∈ ETUDIANT" org.eventb.core.theorem="true"/>
+<org.eventb.core.parameter name=")" org.eventb.core.identifier="newEtudiant"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd3" org.eventb.core.predicate="newEtudiant ∉ EtudiantsInscrits"/>
 </org.eventb.core.event>
-<org.eventb.core.event name="," org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Desinscription">
-<org.eventb.core.action name="'" org.eventb.core.assignment="Inscrit ≔ Inscrit − 1" org.eventb.core.label="minus"/>
-<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="Inscrit ≥ 1"/>
+<org.eventb.core.event name="," org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="DesinscriptionEtudiantFormation">
+<org.eventb.core.action name="'" org.eventb.core.assignment="EtudiantsInscrits ≔ EtudiantsInscrits ∖ {oldEtudiant}" org.eventb.core.label="add"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd4" org.eventb.core.predicate="oldEtudiant ∈ ETUDIANT"/>
+<org.eventb.core.parameter name=")" org.eventb.core.identifier="oldEtudiant"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd5" org.eventb.core.predicate="oldEtudiant ∈ EtudiantsInscrits"/>
 </org.eventb.core.event>
+<org.eventb.core.variable name="-" org.eventb.core.identifier="MyForm"/>
+<org.eventb.core.invariant name="." org.eventb.core.label="inv2" org.eventb.core.predicate="MyForm ⊆ FORMATION"/>
 </org.eventb.core.machineFile>

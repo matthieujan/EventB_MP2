@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="15">
+<org.eventb.core.poFile org.eventb.core.poStamp="30">
 <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="5">
 <org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ETUDIANT)"/>
 <org.eventb.core.poIdentifier name="FORMATION" org.eventb.core.type="ℙ(FORMATION)"/>
@@ -21,48 +21,33 @@
 <org.eventb.core.poPredicate name="EST_INSCRI[" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(PROPOSE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#8"/>
 <org.eventb.core.poPredicate name="EST_INSCRI\" org.eventb.core.predicate="∀p⦂PROJET·p∈PROJET⇒card(REALISE[{p}])=1" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#9"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="13">
-<org.eventb.core.poIdentifier name="Inscrit" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="30">
+<org.eventb.core.poIdentifier name="EtudiantsInscrits" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="MyForm" org.eventb.core.type="ℙ(FORMATION)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="14">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTALLHYPInscriu"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ1" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#'"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTInscriu" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="Inscrit'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTEtudiantsInscritt" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="EtudiantsInscrits'" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="MyForm'" org.eventb.core.type="ℙ(FORMATION)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPInscriu" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTInscriu" org.eventb.core.poStamp="0"/>
-<org.eventb.core.poSequent name="Inscription/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTALLHYPInscriv"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Inscrit+1∈ℕ1" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#+"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poSequent#Inscription\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTInscriv" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="Inscrit'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPEtudiantsInscritt" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTEtudiantsInscritt" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTEtudiantsInscritu" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="EtudiantsInscrits'" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="newEtudiant" org.eventb.core.type="ETUDIANT"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPInscriv" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTInscriv" org.eventb.core.poStamp="0"/>
-<org.eventb.core.poSequent name="Desinscription/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
-<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTALLHYPInscriw"/>
-<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="Inscrit − 1∈ℕ1" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
-<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#,"/>
-<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
-<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poSequent#Desinscription\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
-</org.eventb.core.poSequent>
-<org.eventb.core.poPredicateSet name="EVTIDENTInscriw" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
-<org.eventb.core.poIdentifier name="Inscrit'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPEtudiantsInscritu" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTEtudiantsInscritu" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="newEtudiant∈ETUDIANT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#+|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="newEtudiant∉EtudiantsInscrits" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#+|org.eventb.core.guard#*"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="EVTALLHYPInscriw" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTInscriw" org.eventb.core.poStamp="15">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Inscrit≥1" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#,|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicateSet name="EVTIDENTEtudiantsInscritv" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="oldEtudiant" org.eventb.core.type="ETUDIANT"/>
+<org.eventb.core.poIdentifier name="EtudiantsInscrits'" org.eventb.core.type="ℙ(ETUDIANT)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="13">
-<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="Inscrit∈ℕ1" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicateSet name="EVTALLHYPEtudiantsInscritv" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#EVTIDENTEtudiantsInscritv" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="oldEtudiant∈ETUDIANT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#,|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="oldEtudiant∈EtudiantsInscrits" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.event#,|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/m0_a.bpo|org.eventb.core.poFile#m0_a|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="30">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="EtudiantsInscrits⊆ETUDIANT" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="MyForm⊆FORMATION" org.eventb.core.source="/EventB_MP2/m0_a.bum|org.eventb.core.machineFile#m0_a|org.eventb.core.invariant#."/>
 </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>
