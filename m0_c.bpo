@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="16">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="6">
+<org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="FORMATION" org.eventb.core.type="ℙ(FORMATION)"/>
+<org.eventb.core.poIdentifier name="GROUPE" org.eventb.core.type="ℙ(GROUPE)"/>
+<org.eventb.core.poIdentifier name="MODULE" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="PROJET" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.poIdentifier name="COMPOSE" org.eventb.core.type="ℙ(FORMATION×MODULE)"/>
+<org.eventb.core.poIdentifier name="EST_FORME" org.eventb.core.type="ℙ(FORMATION×ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="EST_INSCRIT" org.eventb.core.type="ℙ(MODULE×ETUDIANT)"/>
+<org.eventb.core.poIdentifier name="PARTICIPE" org.eventb.core.type="ℙ(ETUDIANT×GROUPE)"/>
+<org.eventb.core.poIdentifier name="PROPOSE" org.eventb.core.type="ℙ(MODULE×PROJET)"/>
+<org.eventb.core.poIdentifier name="REALISE" org.eventb.core.type="ℙ(GROUPE×PROJET)"/>
+<org.eventb.core.poPredicate name="EST_INSCRIU" org.eventb.core.predicate="EST_FORME∈FORMATION ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#2"/>
+<org.eventb.core.poPredicate name="EST_INSCRIV" org.eventb.core.predicate="EST_INSCRIT∈MODULE ↔ ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#3"/>
+<org.eventb.core.poPredicate name="EST_INSCRIW" org.eventb.core.predicate="COMPOSE∈FORMATION ↔ MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#4"/>
+<org.eventb.core.poPredicate name="EST_INSCRIX" org.eventb.core.predicate="PROPOSE∈MODULE ↔ PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#5"/>
+<org.eventb.core.poPredicate name="EST_INSCRIY" org.eventb.core.predicate="PARTICIPE∈ETUDIANT ↔ GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#6"/>
+<org.eventb.core.poPredicate name="EST_INSCRIZ" org.eventb.core.predicate="REALISE∈GROUPE ↔ PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#7"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="vGroupe" org.eventb.core.type="ℙ(GROUPE)"/>
+<org.eventb.core.poIdentifier name="vModule" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="vProjet" org.eventb.core.type="ℙ(PROJET)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTvProjeu" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="vModule'" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="vProjet'" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.poIdentifier name="vGroupe'" org.eventb.core.type="ℙ(GROUPE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvProjeu" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTIDENTvProjeu" org.eventb.core.poStamp="8"/>
+<org.eventb.core.poSequent name="ajouter_projet/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="16">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjev'"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="projet∉vProjet" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#)|org.eventb.core.guard#*"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#)|org.eventb.core.guard#*"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjev'"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTvProjev" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="11">
+<org.eventb.core.poIdentifier name="vProjet'" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.poIdentifier name="projet" org.eventb.core.type="PROJET"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTHYPvProjev'" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTIDENTvProjev" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="projet∈PROJET" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#)|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvProjev" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjev'" org.eventb.core.poStamp="16">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="projet∉vProjet" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#)|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ajouter_module/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjew'"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="module∉vModule" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0|org.eventb.core.guard#*"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0|org.eventb.core.guard#*"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjew'"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTvProjew" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="vModule'" org.eventb.core.type="ℙ(MODULE)"/>
+<org.eventb.core.poIdentifier name="module" org.eventb.core.type="MODULE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTHYPvProjew'" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTIDENTvProjew" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="module∈MODULE" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvProjew" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjew'" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="module∉vModule" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#0|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ajouter_groupe/grd2/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="16">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjex'"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="groupe∉vGroupe" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1|org.eventb.core.guard#*"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1|org.eventb.core.guard#*"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjex'"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTvProjex" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="vGroupe'" org.eventb.core.type="ℙ(GROUPE)"/>
+<org.eventb.core.poIdentifier name="groupe" org.eventb.core.type="GROUPE"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTHYPvProjex'" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTIDENTvProjex" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="groupe∈GROUPE" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPvProjex" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#EVTHYPvProjex'" org.eventb.core.poStamp="16">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="groupe∉vGroupe" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.event#1|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/m0_c.bpo|org.eventb.core.poFile#m0_c|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="vProjet⊆PROJET" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.invariant#2"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="vModule⊆MODULE" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.invariant#3"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="vGroupe⊆GROUPE" org.eventb.core.source="/EventB_MP2/m0_c.bum|org.eventb.core.machineFile#m0_c|org.eventb.core.invariant#4"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

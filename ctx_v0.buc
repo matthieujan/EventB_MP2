@@ -16,5 +16,5 @@
 <org.eventb.core.axiom name="4" org.eventb.core.label="COMPOSE1" org.eventb.core.predicate="COMPOSE ∈ FORMATION ↔ MODULE" org.eventb.core.theorem="true"/>
 <org.eventb.core.axiom name="5" org.eventb.core.label="PROPOSE1" org.eventb.core.predicate="PROPOSE ∈ MODULE ↔ PROJET" org.eventb.core.theorem="true"/>
 <org.eventb.core.axiom name="6" org.eventb.core.label="PARTICIPE1" org.eventb.core.predicate="PARTICIPE ∈ ETUDIANT ↔ GROUPE" org.eventb.core.theorem="true"/>
-<org.eventb.core.axiom name="7" org.eventb.core.label="REALISE1" org.eventb.core.predicate="REALISE ∈ GROUPE ↔ PROJET"/>
+<org.eventb.core.axiom name="7" org.eventb.core.label="REALISE1" org.eventb.core.predicate="REALISE ∈ GROUPE ↔ PROJET" org.eventb.core.theorem="true"/>
 </org.eventb.core.contextFile>
