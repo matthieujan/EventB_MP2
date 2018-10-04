@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase" version="3">
-<org.eventb.core.carrierSet name="(" org.eventb.core.identifier="MODULE"/>
-<org.eventb.core.carrierSet name=")" org.eventb.core.identifier="PROJET"/>
-<org.eventb.core.carrierSet name="*" org.eventb.core.identifier="ETUDIANT"/>
-<org.eventb.core.carrierSet name="+" org.eventb.core.identifier="GROUPE"/>
+<org.eventb.core.carrierSet name="," org.eventb.core.identifier="ECOLE"/>
+<org.eventb.core.constant name="-" org.eventb.core.identifier="ETUDIANT"/>
+<org.eventb.core.axiom name="." org.eventb.core.label="axm1" org.eventb.core.predicate="ETUDIANT ⊆ ECOLE"/>
+<org.eventb.core.constant name="/" org.eventb.core.identifier="MODULE"/>
+<org.eventb.core.axiom name="0" org.eventb.core.label="axm2" org.eventb.core.predicate="MODULE ⊆ ECOLE"/>
+<org.eventb.core.constant name="1" org.eventb.core.identifier="GROUPE"/>
+<org.eventb.core.axiom name="2" org.eventb.core.label="axm3" org.eventb.core.predicate="GROUPE ⊆ ECOLE"/>
+<org.eventb.core.constant name="3" org.eventb.core.identifier="PROJET"/>
+<org.eventb.core.axiom name="4" org.eventb.core.label="axm4" org.eventb.core.predicate="PROJET ⊆ ECOLE"/>
+<org.eventb.core.axiom name="5" org.eventb.core.label="axm5" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)"/>
 </org.eventb.core.contextFile>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase;de.prob.units.mchBase">
-<org.eventb.core.scCarrierSet name="ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.carrierSet#*" org.eventb.core.type="ℙ(ETUDIANT)"/>
-<org.eventb.core.scCarrierSet name="GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.carrierSet#+" org.eventb.core.type="ℙ(GROUPE)"/>
-<org.eventb.core.scCarrierSet name="MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(MODULE)"/>
-<org.eventb.core.scCarrierSet name="PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.carrierSet#)" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="ETUDIANT⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="MODULE⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#0" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="GROUPE⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#2" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="*" org.eventb.core.label="axm4" org.eventb.core.predicate="PROJET⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#4" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="+" org.eventb.core.label="axm5" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#5" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.carrierSet#," org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.scConstant name="ETUDIANT" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.constant#-" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.scConstant name="GROUPE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.constant#1" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.scConstant name="MODULE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.constant#\/" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.scConstant name="PROJET" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.constant#3" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.scContextFile>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="7">
-<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="7">
-<org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ETUDIANT)"/>
-<org.eventb.core.poIdentifier name="GROUPE" org.eventb.core.type="ℙ(GROUPE)"/>
-<org.eventb.core.poIdentifier name="MODULE" org.eventb.core.type="ℙ(MODULE)"/>
-<org.eventb.core.poIdentifier name="PROJET" org.eventb.core.type="ℙ(PROJET)"/>
+<org.eventb.core.poFile org.eventb.core.poStamp="11">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.poIdentifier name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.poIdentifier name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.poIdentifier name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.poIdentifier name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.poPredicateSet>
-<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="7"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/EventB_MP2/ctx_v0.bpo|org.eventb.core.poFile#ctx_v0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="11">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ETUDIANT⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#."/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="MODULE⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#0"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="GROUPE⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#2"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="PROJET⊆ECOLE" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#4"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)" org.eventb.core.source="/EventB_MP2/ctx_v0.buc|org.eventb.core.contextFile#ctx_v0|org.eventb.core.axiom#5"/>
+</org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>
