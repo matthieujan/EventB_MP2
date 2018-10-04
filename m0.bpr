@@ -257,8 +257,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="INITIALISATION/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="ECOLE">
 <org.eventb.core.lang name="L"/>
@@ -521,8 +521,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="ajouter_projet/inv7/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -617,8 +617,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="ajouter_module/inv6/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -713,8 +713,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="ajouter_groupe/inv7/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -809,8 +809,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="ajouter_groupe/inv8/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -905,8 +905,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inv5/THM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -1203,8 +1203,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_etudiant_module/grd1/THM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -1360,8 +1360,8 @@
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_projet_groupe/grd2/THM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -1667,8 +1667,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_etudiant_module/inv5/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -1765,8 +1765,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_projet_groupe/inv7/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -1866,8 +1866,8 @@
 <org.eventb.core.prIdent name="pProjet" org.eventb.core.type="ECOLE"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_etudiant_groupe/inv8/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -1964,8 +1964,8 @@
 <org.eventb.core.prIdent name="pGroupe" org.eventb.core.type="ECOLE"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_etudiant_groupe/act1/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="ECOLE">
 <org.eventb.core.lang name="L"/>
@@ -2050,8 +2050,8 @@
 <org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬pEtudiant ↦ pGroupe∈fEtudiantDansGroupe"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="inscrire_etudiant_groupe/grd2/THM" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -2971,9 +2971,9 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="INITIALISATION/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="ECOLE">
 <org.eventb.core.lang name="L"/>
@@ -2989,31 +2989,27 @@
 </org.eventb.core.prAnte>
 <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
 </org.eventb.core.prRule>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 <org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
 <org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 <org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
-<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
 <org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
-<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p9" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(ECOLE))⊆PROJET"/>
 <org.eventb.core.prPred name="p8" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
 <org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
-<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∅ ⦂ ℙ(ECOLE×ECOLE))∈(∅ ⦂ ℙ(ECOLE)) ↔ (∅ ⦂ ℙ(ECOLE))"/>
 <org.eventb.core.prPred name="p2" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
 <org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 <org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
-<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
-<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
 <org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
@@ -3028,8 +3024,8 @@
 <org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
 </org.eventb.core.prPred>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="ajouter_module/inv10/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -3320,5 +3316,1585 @@
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_module/inv2/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_module/inv5/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_module/inv6/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_module/act1/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="ECOLE">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p10" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p11" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p12">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p16"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="pModule" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="vModule" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="pModule∉vModule"/>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="pModule∈vModule"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬pModule∈vModule"/>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬⊤"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_projet/inv6/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_projet/inv1/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_projet/inv7/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_projet/act1/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="ECOLE">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3,p4,p5,p6,p7,p8"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3,p4,p5,p6,p7,p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p9">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p11"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p12"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p13"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="fProjetDuModule" org.eventb.core.type="ℙ(ECOLE×ECOLE)"/>
+<org.eventb.core.prIdent name="pModule" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="pProjet" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="¬pProjet ↦ pModule∈fProjetDuModule"/>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="pProjet ↦ pModule∉fProjetDuModule"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_groupe/inv3/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_groupe/inv7/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_groupe/inv8/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_groupe/act1/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="ECOLE">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p10" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p11" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p12">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p16"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="pGroupe" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="vGroupe" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="pGroupe∉vGroupe"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬pGroupe∈vGroupe"/>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="pGroupe∈vGroupe"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬⊤"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="desinscrire_etudiant_formation/inv4/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="desinscrire_etudiant_formation/inv5/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="desinscrire_etudiant_formation/inv8/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="desinscrire_etudiant_formation/act1/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="ECOLE">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p10" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p11" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p12">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p16"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="pEtudiant" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="vEtudiant" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="pEtudiant∈vEtudiant"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="pEtudiant∉vEtudiant"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬pEtudiant∈vEtudiant"/>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬⊤"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="retirer_projet/act2/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="ECOLE">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p2" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p3,p4,p5,p6,p7,p8,p9"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p10">
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p10" org.eventb.core.prHyps="p1">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p11">
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prGoal="p11" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p12">
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p13"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p14"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p15"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p16"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="pProjet" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="vProjet" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="pProjet∉vProjet"/>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="⊥"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="pProjet∈vProjet"/>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬pProjet∈vProjet"/>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="¬⊤"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="lister_projets_etudiant/inv10/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p0" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p8"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p11"/>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="ECOLE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+</org.eventb.core.prProof>
+<org.eventb.core.prProof name="lister_projets_etudiant/act1/FIS" org.eventb.core.confidence="0" org.eventb.core.prFresh="p,g" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="ECOLE">
+<org.eventb.core.lang name="L"/>
+<org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE))" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p2,p3,p4,p5,p6,p7,p8"/>
+<org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p2,p3,p4,p5,p6,p7,p8"/>
+<org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'">
+<org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p9"/>
+<org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p10"/>
+<org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p11"/>
+<org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p12"/>
+<org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∀ goal (frees p,g)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p13">
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="g" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p13" org.eventb.core.prHyps="">
+<org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p18" org.eventb.core.prHyps="p14,p15,p16,p17"/>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+</org.eventb.core.prRule>
+</org.eventb.core.prAnte>
+<org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+</org.eventb.core.prRule>
+<org.eventb.core.prIdent name="fEtudiantDansGroupe" org.eventb.core.type="ℙ(ECOLE×ECOLE)"/>
+<org.eventb.core.prIdent name="fProjetParGroupe" org.eventb.core.type="ℙ(ECOLE×ECOLE)"/>
+<org.eventb.core.prIdent name="pEtudiant" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="rListeProjet" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="vGroupe" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="vProjet" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(ECOLE,ETUDIANT,GROUPE,PROJET,MODULE)">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p18" org.eventb.core.predicate="p∈rListeProjet">
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ECOLE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p6" org.eventb.core.predicate="GROUPE∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀p⦂ECOLE,g⦂ECOLE·p∈vProjet∧g∈vGroupe∧pEtudiant ↦ g∈fEtudiantDansGroupe∧p ↦ g∈fProjetParGroupe⇒p∈rListeProjet"/>
+<org.eventb.core.prPred name="p10" org.eventb.core.predicate="MODULE⊆ECOLE">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p17" org.eventb.core.predicate="p ↦ g∈fProjetParGroupe">
+<org.eventb.core.prIdent name="g" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ECOLE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p14" org.eventb.core.predicate="p∈vProjet">
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ECOLE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p4" org.eventb.core.predicate="ETUDIANT∩PROJET=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p9" org.eventb.core.predicate="ETUDIANT⊆ECOLE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p15" org.eventb.core.predicate="g∈vGroupe">
+<org.eventb.core.prIdent name="g" org.eventb.core.type="ECOLE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p11" org.eventb.core.predicate="GROUPE⊆ECOLE">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p8" org.eventb.core.predicate="PROJET∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p12" org.eventb.core.predicate="PROJET⊆ECOLE">
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p2" org.eventb.core.predicate="ECOLE=ETUDIANT∪GROUPE∪PROJET∪MODULE">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="PROJET" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p5" org.eventb.core.predicate="ETUDIANT∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p7" org.eventb.core.predicate="GROUPE∩MODULE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="MODULE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p16" org.eventb.core.predicate="pEtudiant ↦ g∈fEtudiantDansGroupe">
+<org.eventb.core.prIdent name="g" org.eventb.core.type="ECOLE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p3" org.eventb.core.predicate="ETUDIANT∩GROUPE=(∅ ⦂ ℙ(ECOLE))">
+<org.eventb.core.prIdent name="ETUDIANT" org.eventb.core.type="ℙ(ECOLE)"/>
+<org.eventb.core.prIdent name="GROUPE" org.eventb.core.type="ℙ(ECOLE)"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prPred name="p13" org.eventb.core.predicate="p∈vProjet∧g∈vGroupe∧pEtudiant ↦ g∈fEtudiantDansGroupe∧p ↦ g∈fProjetParGroupe⇒p∈rListeProjet">
+<org.eventb.core.prIdent name="g" org.eventb.core.type="ECOLE"/>
+<org.eventb.core.prIdent name="p" org.eventb.core.type="ECOLE"/>
+</org.eventb.core.prPred>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+<org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 </org.eventb.core.prProof>
 </org.eventb.core.prFile>
